@@ -1,290 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
-      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous" />
     <title>Document</title>
     <style>
-      .body {
-        margin: 0px !important;
-        padding: 0px !important;
-      }
-
-      .container {
-        display: flex;
-      }
-
-      .item {
-        width: 100%;
-      }
-
-      .image {
-        width: 100%;
-      }
-
-      .card {
-        bottom: 30% !important;
-        margin-left: 1% !important;
-        background-color: rgba(0, 0, 0, 0.425) !important;
-        color: white !important;
-        padding: 40px 80px !important;
-        position: absolute;
-        text-align: center !important;
-        font-size: 15px !important;
-        border-radius: 5px !important;
-      }
-
-      .card:hover {
-        background-color: black !important;
-        color: white !important;
-      }
-
-      .btn {
-        position: absolute;
-        width: 100% !important;
-        text-align: center !important;
-        right: 0% !important;
-        background-color: #4caf50 !important;
-        padding-top: 5px !important;
-        cursor: pointer !important;
-        bottom: 10% !important;
-        border-radius: 5px !important;
-      }
-
-      .btn:hover {
-        color: black !important;
-        background-color: rgb(196, 189, 189) !important;
-      }
-
-      .flex {
-        display: flex !important;
-      }
-
-      .w-50 {
-        width: 50% !important;
-      }
-
-      .w-100 {
-        width: 100% !important;
-      }
-
-      .h-1 {
-        font-size: 30px !important;
-      }
-
-      .color {
-        color: green;
-      }
-
-      .font-size {
-        font-size: 20px !important;
-      }
-
-      .font {
-        font-size: 25px !important;
-      }
-
-      .images-2 {
-        margin-left: 50% !important;
-        margin-top: 5% !important;
-      }
-
-      .btn-2 {
-        padding: 20px !important;
-        padding-left: 10% !important;
-        padding-right: 10% !important;
-        color: #000 !important;
-        cursor: pointer !important;
-        border: none !important;
-        text-align: center !important;
-      }
-
-      .btn-2:hover {
-        color: #000 !important;
-        background-color: #c4bfbf !important;
-      }
-
-      .col {
-        display: flex !important;
-        background-color: rgb(226, 223, 223) !important;
-      }
-
-      .col-2 {
-        width: 50% !important;
-        margin-top: 10px !important;
-      }
-
-      .col-3 {
-        margin-left: 20% !important;
-        font-size: 30px !important;
-        margin-bottom: 5% !important;
-      }
-
-      .color-2 {
-        color: red !important;
-      }
-      .font-1 {
-        font-size: 35px !important;
-      }
-      .flex-1 {
-        background-color: rgb(92, 91, 91);
-      }
-      .col-4 {
-        text-align: center;
-        color: white !important;
-        max-width: 100% !important;
-      }
-      .font-2 {
-        font-size: 60px !important;
-        margin-top: 0px !important;
-      }
-
-      .ıcon {
-        font-size: 64px !important;
-      }
-      .font-3 {
-        font-size: 20px !important;
-      }
-      .col-6 {
-        margin-right: 70% !important;
-        margin-top: 10% !important;
-      }
-      .col-7 {
-        margin-right: 35% !important;
-      }
+        .body {
+            margin: 0px !important;
+            padding: 0px !important;
+        }
+        
+        .container {
+            display: flex;
+        }
+        
+        .item {
+            width: 100%;
+        }
+        
+        .image {
+            width: 100%;
+        }
+        
+        .card {
+            bottom: 30% !important;
+            margin-left: 1% !important;
+            background-color: rgba(0, 0, 0, 0.425) !important;
+            color: white !important;
+            padding: 40px 80px !important;
+            position: absolute;
+            text-align: center !important;
+            font-size: 15px !important;
+            border-radius: 5px !important;
+        }
+        
+        .card:hover {
+            background-color: black !important;
+            color: white !important;
+        }
+        
+        .btn {
+            position: absolute;
+            width: 100% !important;
+            text-align: center !important;
+            right: 0% !important;
+            background-color: #4caf50 !important;
+            padding-top: 5px !important;
+            cursor: pointer !important;
+            bottom: 10% !important;
+            border-radius: 5px !important;
+        }
+        
+        .btn:hover {
+            color: black !important;
+            background-color: rgb(196, 189, 189) !important;
+        }
+        
+        .flex {
+            display: flex !important;
+        }
+        
+        .w-50 {
+            width: 50% !important;
+        }
+        
+        .w-100 {
+            width: 100% !important;
+        }
+        
+        .h-1 {
+            font-size: 30px !important;
+        }
+        
+        .color {
+            color: green;
+        }
+        
+        .font-size {
+            font-size: 20px !important;
+        }
+        
+        .font {
+            font-size: 25px !important;
+        }
+        
+        .images-2 {
+            margin-left: 50% !important;
+            margin-top: 5% !important;
+        }
+        
+        .btn-2 {
+            padding: 20px !important;
+            padding-left: 10% !important;
+            padding-right: 10% !important;
+            color: #000 !important;
+            cursor: pointer !important;
+            border: none !important;
+            text-align: center !important;
+        }
+        
+        .btn-2:hover {
+            color: #000 !important;
+            background-color: #c4bfbf !important;
+        }
+        
+        .col {
+            display: flex !important;
+            background-color: rgb(226, 223, 223) !important;
+        }
+        
+        .col-2 {
+            width: 50% !important;
+            margin-top: 10px !important;
+        }
+        
+        .col-3 {
+            margin-left: 20% !important;
+            font-size: 30px !important;
+            margin-bottom: 5% !important;
+        }
+        
+        .color-2 {
+            color: red !important;
+        }
+        
+        .font-1 {
+            font-size: 35px !important;
+        }
+        
+        .flex-1 {
+            background-color: rgb(92, 91, 91);
+        }
+        
+        .col-4 {
+            text-align: center;
+            color: white !important;
+            max-width: 100% !important;
+        }
+        
+        .font-2 {
+            font-size: 60px !important;
+            margin-top: 0px !important;
+        }
+        
+        .ıcon {
+            display: flex !important;
+            font-size: 64px !important;
+        }
+        
+        .col-5 {
+            width: 25% !important;
+        }
+        
+        .col-6 {
+            width: 25% !important;
+        }
+        
+        .col-7 {
+            width: 25% !important;
+        }
+        
+        .col-8 {
+            width: 25% !important;
+        }
+        
+        .ıcon-1 {
+            display: flex !important;
+            font-size: 64px !important;
+        }
+        
+        .col-9 {
+            width: 25% !important;
+        }
+        
+        .col-10 {
+            width: 25% !important;
+        }
+        
+        .col-11 {
+            width: 25% !important;
+        }
+        
+        .col-12 {
+            width: 25% !important;
+        }
+        
+        .ıcon-2 {
+            display: flex !important;
+            font-size: 64px !important;
+        }
+        
+        .col-13 {
+            width: 25% !important;
+        }
+        
+        .col-14 {
+            width: 25% !important;
+        }
+        
+        .col-15 {
+            width: 25% !important;
+        }
+        
+        .col-16 {
+            width: 25% !important;
+        }
+        
+        .font-size-3 {
+            font-size: 30px !important;
+        }
+        
+        .text-aling-center {
+            text-align: center !important;
+            font-size: 30px !important;
+            width: 100% !important;
+        }
+        
+        .font-size-4 {
+            font-size: 20px !important;
+        }
     </style>
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="container">
-      <div class="item">
-        <img class="image" src="images/app.jpeg" alt="" />
-        <div class="card">
-          <h2>Take photos with our app</h2>
-          <hr />
-          <h3>Super simple installment:free of charge</h3>
-          <button class="btn">
+        <div class="item">
+            <img class="image" src="images/app.jpeg" alt="" />
+            <div class="card">
+                <h2>Take photos with our app</h2>
+                <hr />
+                <h3>Super simple installment:free of charge</h3>
+                <button class="btn">
             Download
             <i class="fab fa-android"></i>
             <i class="fab fa-apple"></i>
             <i class="fab fa-windows" aria-hidden="true"></i>
           </button>
+            </div>
         </div>
-      </div>
     </div>
     <div class="flex w-100">
-      <div class="w-50">
-        <div class="h-1">
-          <h1>The App</h1>
-          <h1 class="color">Why buy it?</h1>
-          <p class="font-size">
-            <strong class="font"> Take photos like a pro.</strong> You should
-            buy this app because lorem ipsum consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullam co laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-          </p>
+        <div class="w-50">
+            <div class="h-1">
+                <h1>The App</h1>
+                <h1 class="color">Why buy it?</h1>
+                <p class="font-size">
+                    <strong class="font"> Take photos like a pro.</strong> You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullam co laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
 
-          <button class="btn-2">
+                <button class="btn-2">
             <i class="fas fa-download"></i> Download Application
           </button>
-          <p class="font-size">
-            Available for
-            <i class="fab fa-android"></i>
-            <i class="fab fa-apple"></i>
-            <i class="fab fa-windows" aria-hidden="true"></i>
-          </p>
+                <p class="font-size">
+                    Available for
+                    <i class="fab fa-android"></i>
+                    <i class="fab fa-apple"></i>
+                    <i class="fab fa-windows" aria-hidden="true"></i>
+                </p>
+            </div>
         </div>
-      </div>
-      <div class="w-50">
-        <img class="images-2" src="images/img_app.jpeg" alt="" />
-      </div>
+        <div class="w-50">
+            <img class="images-2" src="images/img_app.jpeg" alt="" />
+        </div>
     </div>
     <div class="col">
-      <div class="col-2">
-        <img class="images-2" src="images/app5.jpeg" alt="" />
-      </div>
-      <div class="col-3">
-        <h1>Clarity</h1>
-        <h1 class="color-2">Pixels,who?</h1>
-        <p>
-          <strong class="font-1"> A revolution in resolution.</strong> Sharp and
-          clear photos with the world's best photo engine, incididunt ut labore
-          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur.
-        </p>
-      </div>
+        <div class="col-2">
+            <img class="images-2" src="images/app5.jpeg" alt="" />
+        </div>
+        <div class="col-3">
+            <h1>Clarity</h1>
+            <h1 class="color-2">Pixels,who?</h1>
+            <p>
+                <strong class="font-1"> A revolution in resolution.</strong> Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+        </div>
     </div>
     <div class="flex-1">
-      <div class="col-4">
-        <h1 class="font-2">Features</h1>
-        <p>This app is just so lorem ipsum.</p>
-        <div class="ıcon">
-          <div class="col-6">
-            <i class="fa fa-bolt" aria-hidden="true"></i>
-            <p class="font-3">Fast</p>
-          </div>
-          <div class="col-7">
-            <i class="fa fa-heart" aria-hidden="true"></i>
-            <p class="font-3">Loved</p>
-          </div>
-          <div class="col-8">
-            <i class="fa fa-camera" aria-hidden="true"></i>
-            <p class="font-3">Clarity</p>
-          </div>
-          <div class="col-9">
-            <i class="fa fa-battery-full" aria-hidden="true"></i>
-            <p class="font-3">Power</p>
-          </div>
+        <div class="col-4">
+            <h1 class="font-2">Features</h1>
+            <p>This app is just so lorem ipsum.</p>
+            <div class="ıcon">
+                <div class="col-5">
+                    <i class="fa fa-bolt" aria-hidden="true"></i>
+                    <p class="font-size-3">Fast</p>
+                </div>
+                <div class="col-6">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                    <p class="font-size-3">Loved</p>
+                </div>
+                <div class="col-7">
+                    <i class="fa fa-camera" aria-hidden="true"></i>
+                    <p class="font-size-3">Clarity</p>
+                </div>
+                <div class="col-8">
+                    <i class="fa fa-battery-full" aria-hidden="true"></i>
+                    <p class="font-size-3">Power</p>
+                </div>
+            </div>
+            <div class="ıcon-1">
+                <div class="col-9">
+                    <i class="fas fa-gem"></i>
+                    <p class="font-size-3">Sharp</p>
+                </div>
+                <div class="col-10">
+                    <i class="fa fa-cloud" aria-hidden="true"></i>
+                    <p class="font-size-3">Cloud</p>
+                </div>
+                <div class="col-11">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    <p class="font-size-3">Global</p>
+                </div>
+                <div class="col-12">
+                    <i class="fas fa-hdd    "></i>
+                    <p class="font-size-3">Storage</p>
+                </div>
+            </div>
+            <div class="ıcon-2">
+                <div class="col-13">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <p class="font-size-3">Safe</p>
+                </div>
+                <div class="col-14">
+                    <i class="fas fa-shield-alt"></i>
+                    <p class="font-size-3">Stabile</p>
+                </div>
+                <div class="col-15">
+                    <i class="fa fa-wifi" aria-hidden="true"></i>
+                    <p class="font-size-3">Connected</p>
+                </div>
+                <div class="col-16">
+                    <i class="fas fa-image    "></i>
+                    <p class="font-size-3">HD</p>
+                </div>
+            </div>
         </div>
-        <div class="ıcon">
-          <div class="col-10">
-            <i class="fa fa-diamond" aria-hidden="true"></i>
-            <p class="font-3">Sharp</p>
-          </div>
-          <div class="col-11">
-            <i class="fa fa-cloud" aria-hidden="true"></i>
-            <p class="font-3">Cloud</p>
-          </div>
-          <div class="col-12">
-            <i class="fa fa-globe" aria-hidden="true"></i>
-            <p class="font-3">Global</p>
-          </div>
-          <div class="col-13">
-            <i class="fa fa-hdd" aria-hidden="true"></i>
-            <p class="font-3">Storage</p>
-          </div>
-        </div>
-        <div class="ıcon">
-          <div class="col-14">
-            <i class="fa fa-user" aria-hidden="true"></i>
-            <p class="font-3">Safe</p>
-          </div>
-          <div class="col-15">
-            <i class="fa fa-shield" aria-hidden="true"></i>
-            <p class="font-3">Stabile</p>
-          </div>
-          <div class="col-16">
-            <i class="fa fa-wifi" aria-hidden="true"></i>
-            <p class="font-3">Connected</p>
-          </div>
-          <div class="col-17">
-            <i class="fa fa-image" aria-hidden="true"></i>
-            <p class="font-3">HD</p>
-          </div>
-        </div>
-      </div>
     </div>
-  </body>
+    <div class="text-aling-center">
+        <h1>Pricing</h1>
+        <p class="font-size-4">Choose a pricing plan that fits your needs.</p>
+    </div>
+    <div class="container-2">
+        <ul class="card-2">
+            <li class="head">Basic</li>
+            <li class="head-1">250 Photos</li>
+            <li class="head-1">10 Features</li>
+            <li class="head-1">No Ads</li>
+            <li class="head-1">Office Hours Support</li>
+            <li clas="head-1">$ 25</li>
+            <li class="head-1">
+                <button class="btn-5">Download</button>
+            </li>
+        </ul>
+    </div>
+</body>
+
 </html>
